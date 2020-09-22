@@ -11,7 +11,7 @@ public class principal {
 		
 		
 		 Alumno alumno=new Alumno();
-		 int año,mes, dia;
+		 int anio,mes, dia;
 		 Scanner entrada = new Scanner(System.in);
 		 System.out.println("Ingresar los datos del Alumno ");
 		 System.out.println("Ingrese nombres: ");
@@ -28,9 +28,9 @@ public class principal {
 		    dia = entrada.nextInt();
 	     System.out.println("Introduce el mes (MM): ");
 		    mes = entrada.nextInt();
-	     System.out.println("Introduce el año (yyyy) : ");
-		    año = entrada.nextInt();
-		 alumno.setFechaNacimiento(LocalDate.of(año, mes, dia));
+	     System.out.println("Introduce el aï¿½o (yyyy) : ");
+		    anio = entrada.nextInt();
+		 alumno.setFechaNacimiento(LocalDate.of(anio, mes, dia));
 		 entrada.nextLine();
 		 
 		 System.out.println("Ingrese direccion: ");
